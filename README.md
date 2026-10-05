@@ -23,3 +23,7 @@ Download the latest version from **[Releases](https://github.com/sgvue/releases/
 Updating keeps your settings, API key, recent files and saved views.
 
 Check which version you have under **Help › About**. From version 1.2.0, SGVue's start page — where you open models — tells you when a newer version is out, and **Help › Check for updates…** opens the SGVue web page — <https://sgvue.github.io/> — which says whether you are up to date.
+
+## Source code
+
+SGVue is open source under the Apache License 2.0. Its source code is at <https://github.com/sgvue/sgvue>.
