@@ -7,11 +7,13 @@ Download the latest version from **[Releases](https://github.com/sgvue/releases/
 ## System requirements
 
 - **System** — Windows 10 or 11, 64-bit.
-- **Memory** — 8 GB works for IFC files up to about 100 MB; 16 GB is recommended for 200 MB files, or for several models together.
+- **Memory** — about 8 GB for IFC files up to about 100 MB, 16 GB for files up to about 300 MB, and 32 GB for larger files, up to the 600 MB limit. With several models open at once, add their sizes together.
 - **Graphics** — any graphics card with WebGL2, which every PC of the last several years has; on a PC with an NVIDIA card, SGVue uses it automatically.
-- **Files** — IFC, as `.ifc` or `.ifczip`. It is built for typical files of 50–200 MB; a single file larger than 600 MB is not opened.
+- **Files** — IFC, as `.ifc` or `.ifczip`, up to 600 MB a file. A file of up to about 300 MB opens in under half a minute; from 300 MB to 600 MB, expect 30–50 seconds. A file larger than 600 MB is not opened — split it into several models.
 - **Disk** — about 110 MB to download, and about 390 MB once installed.
 - **Internet** — not needed to view models. Two things use it: a check for a newer version when SGVue starts, which sends nothing about your files or models, and Ask Vee — only if you set it up with your own Anthropic API key.
+
+The memory and opening times were measured for 1.3.0 on one PC — Windows 11 with 64 GB of memory and an 8 GB NVIDIA graphics card — with test models generated for the purpose; a slower PC takes longer, and a real model with less repeated geometry can need more memory.
 
 ## Install or update (Windows)
 
